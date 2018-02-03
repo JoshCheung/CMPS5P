@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printBoard()
+comment1.params=celAdr
+comment1.target=boolean\ isEmpty(int[])
+comment10.params=args
+comment10.target=void\ main(java.lang.String[])
+comment2.params=celAdr\ val
+comment2.target=void\ move(int[],\ int)
+comment3.params=lev\ row\ col\ val
+comment3.target=void\ move(int,\ int,\ int,\ int)
+comment4.params=val
+comment4.target=void\ setAll(int)
+comment5.params=a\ b
+comment5.target=boolean\ isEqual(int[],\ int[])
+comment6.params=line
+comment6.target=int[]\ findEmptyCel(int[][])
+comment7.params=line1\ line2
+comment7.target=int[]\ findComMtCel(int[][],\ int[][])
+comment8.params=
+comment8.target=void\ compLineSums()
+comment9.params=sum
+comment9.target=int\ findLineSum(int)
+numComments=11

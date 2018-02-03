@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=row\ col\ level
+comment0.target=Location(int,\ int,\ int)
+numComments=1

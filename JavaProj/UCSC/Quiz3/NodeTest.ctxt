@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=H
+comment1.target=void\ printForward(Node)
+comment2.params=H
+comment2.target=void\ printBackward(Node)
+comment3.params=H
+comment3.target=int\ product(Node)
+comment4.params=n\ idx\ value
+comment4.target=void\ insertAfter(Node,\ int,\ int)
+comment5.params=n1\ n2
+comment5.target=boolean\ isEqual(Node,\ Node)
+numComments=6

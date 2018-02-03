@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=filename
+comment1.target=java.util.List\ loadWords(java.lang.String)
+comment2.params=word\ filename
+comment2.target=java.util.List\ compareList(java.lang.String,\ java.lang.String)
+comment3.params=word
+comment3.target=java.lang.String\ alphabetize(java.lang.String)
+numComments=4

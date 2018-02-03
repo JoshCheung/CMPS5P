@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=levels\ row\ col
+comment0.target=Location(int,\ int,\ int)
+comment1.params=that
+comment1.target=boolean\ isEqual(Location)
+numComments=2

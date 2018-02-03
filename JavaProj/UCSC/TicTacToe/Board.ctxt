@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=levels\ rows\ cols
+comment0.target=Board(int,\ int,\ int)
+comment0.text=\n\ \ \ \ public\ List<Set<Location>>\ createWinningLocs()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ List<Set<Location>>\ winningLocs\ \=\ new\ ArrayList<Set<Location>>();\n\ \ \ \ \ \ \ \ for(int\ l\ \=\ 0;\ l\ <\ lines.length;\ l++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Set<Location>\ sets\ \=\ new\ HashSet<Location>();\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sets.add(\ new\ Location(lines[l][0][0],\ lines[l][0][1],\ lines[l][0][2]));\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sets.add(\ new\ Location(lines[l][1][0],\ lines[l][1][1],\ lines[l][1][2]));\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sets.add(\ new\ Location(lines[l][2][0],\ lines[l][2][1],\ lines[l][2][2]));\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sets.add(\ new\ Location(lines[l][3][0],\ lines[l][3][1],\ lines[l][3][2]));\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ winningLocs.add(sets);\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ winningLocs;\n\ \ \ \ }\n
+comment1.params=l\ r\ c\ val
+comment1.target=void\ setLocs(int,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.util.List\ smartMove()
+comment3.params=
+comment3.target=java.util.List\ emptyLocs()
+comment3.text=\n\ \ \ \ public\ boolean\ contains(List<Location>\ listLoc,\ Location\ l)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 0;\ i\ <\ listLoc.size();\ i++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ if(listLoc.get(i).isEqual(l))\n\ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ false;\n\ \ \ \ }\n\ \ \ \ \n\ \ \ \n\ \ \ \ public\ boolean\ containsWin(Set<Location>\ setLoc)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ boolean\ out\ \=\ false;\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 0;\ i\ <\ winningLocs.size();\ i++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ //Location\ wl1\ \=\ winningLocs.get(i);\n\ \ \ \ \ \ \ \ \ \ \ \ Iterator<Location>\ it\ \=\ winningLocs.get(i).iterator();\n\ \ \ \ \ \ \ \ \ \ \ \ if(setLoc.contains(it.next())\ &&\ setLoc.contains(it.next())\ &&\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ setLoc.contains(it.next())\ &&\ setLoc.contains(it.next()))\n\ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ out\ \=\ \ true;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ out;\n\ \ \ \ }\n
+comment4.params=
+comment4.target=void\ print()
+numComments=5

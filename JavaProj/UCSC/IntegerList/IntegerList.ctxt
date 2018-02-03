@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=public\ static\ String\ toString(IntegerList\ L)\ {\n\ \ \ \ String\ s\ \=\ "";\n\ \ \ \ for(int\ i\ \=\ 1;\ i\ <\ L.size()+1;\ i++)\ {\n\ \ \ \ s\ +\=\ "/"+\ L.get(i);\n\ \ \ \ }\n\ \ \ \ return\ s;\n}
+comment10.params=index
+comment10.target=void\ remove(int)
+comment11.params=
+comment11.target=void\ removeAll()
+comment2.params=theList\ p\ q
+comment2.target=void\ swap(IntegerList,\ int,\ int)
+comment3.params=L
+comment3.target=void\ reverse(IntegerList)
+comment3.text=\n\ \ \ \ public\ static\ void\ reverse(IntegerList\ theList)\ {\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ 1;\ i\ <\ (theList.size())/2;\ i++){\n\ \ \ \ \ \ \ \ \ \ \ \ swap(theList,\ i,\ theList.size()-i\ );\n\ \ \ \ \ \ \ \ }\n\ \ \ \ }\n
+comment4.params=
+comment4.target=IntegerList()
+comment5.params=listIndex
+comment5.target=int\ arrayIndex(int)
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment7.params=
+comment7.target=int\ size()
+comment8.params=index
+comment8.target=int\ get(int)
+comment9.params=index\ newItem
+comment9.target=void\ add(int,\ int)
+numComments=12

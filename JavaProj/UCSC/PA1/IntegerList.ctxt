@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=IntegerList()
+comment1.params=listIndex
+comment1.target=int\ arrayIndex(int)
+comment10.params=rhs
+comment10.target=boolean\ equals(java.lang.Object)
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=
+comment3.target=int\ size()
+comment4.params=index
+comment4.target=int\ get(int)
+comment5.params=index\ newItem
+comment5.target=void\ add(int,\ int)
+comment6.params=L\ i\ j
+comment6.target=void\ swap(IntegerList,\ int,\ int)
+comment7.params=index
+comment7.target=void\ remove(int)
+comment8.params=
+comment8.target=void\ removeAll()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=11

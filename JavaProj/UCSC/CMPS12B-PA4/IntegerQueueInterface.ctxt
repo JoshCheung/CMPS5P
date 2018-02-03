@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ isEmpty()
+comment1.params=x
+comment1.target=void\ enqueue(int)
+comment2.params=
+comment2.target=int\ dequeue()
+comment3.params=
+comment3.target=int\ peek()
+comment4.params=
+comment4.target=void\ dequeueAll()
+numComments=5
